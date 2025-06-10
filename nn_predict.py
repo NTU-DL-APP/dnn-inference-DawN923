@@ -4,7 +4,7 @@ import json
 # === Activation functions ===
 def relu(x):
     # TODO: Implement the Rectified Linear Unit
-    return np.maximun(0,x)
+    return np.maximum(0,x)
 
 def softmax(x):
     # TODO: Implement the SoftMax function
